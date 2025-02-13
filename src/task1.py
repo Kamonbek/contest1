@@ -1,4 +1,4 @@
 def kwargsAcceptFun(**kwargs):
-    print("Received keyword arguments:")
+    print("Arguments:")
     for key, value in kwargs.items():
         print(f"{key}: {value}")
